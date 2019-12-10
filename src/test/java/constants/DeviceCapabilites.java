@@ -14,7 +14,9 @@ public class DeviceCapabilites {
         PIXEL_2_CAPABILITIES.put("appPackage", "com.getir.getirtestingcasestudy");
         PIXEL_2_CAPABILITIES.put("appActivity", "com.getir.getirtestingcasestudy.ui.login.LoginActivity");
         PIXEL_2_CAPABILITIES.put("noReset", "true");
+        PIXEL_2_CAPABILITIES.put("adbExecTimeout", 60000);
         PIXEL_2_CAPABILITIES.put("uiautomator2ServerInstallTimeout", 60000);
+
         PIXEL_2_CAPABILITIES.put("newCommandTimeout", 100000);
     }
 }
